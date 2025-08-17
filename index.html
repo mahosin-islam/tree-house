@@ -13,18 +13,18 @@
     <!-- tailwind-css -->
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="manrope-font">
     <!-- banar-section-area -->
- <div class="w-5-6 h-auto my-20 m-auto border-2 border-blue-600 min-h-[200px] w-5/6 flex justify-between ">
-    <div class="left w-6/10">
+ <div class="w-5/6 h-auto my-20 m-auto  min-h-[200px]  sm:flex justify-between ">
+    <div class="left w-9/10 sm:w-6/10">
         <h2 class="f text-[80px] font-bold">It's good <br>
 tea time at The <br>  Tea House</h2>
 <p class="my-5">Tea and Botanical Solutions Supplier <br>Give Optimum Satisfaction To Your Taste Buds.</p>
 <button class="text-white bg-gradient-to-l from-[#ff0000] to-[#ff8938] w-50 h-15 rounded-[8px]">Explore More</button>
     </div>
-    <div class="right border-2 border-amber-300 relative">
-       <div> <img src="banner.png" class="mt-30 " alt=""></div>
-        <div class="w-60 h-20 bg-gray-100 absolute top-110 left-12 flex justify-around items-center">
+    <div class="right  relative m-auto w-9/10 sm:w-4/10">
+       <div> <img src="banner.png" class="mt-10 " alt=""></div>
+        <div class="w-60 h-20 bg-gray-100 absolute top-60 sm:top-83 left-10 flex justify-around items-center">
             <img class="w-10 h-10"  src="icon-star.png" alt="">
             <div>
                 <h2 class="font-bold">5.00</h2>
@@ -39,29 +39,29 @@ tea time at The <br>  Tea House</h2>
   <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable.</p>
  </section>
  <!-- section-2 -->
-  <section class="w-5/6 m-auto grid grid-cols-4 justify-between">
-    <div class="w-60 h-90 bg-[#f4f4f4]">
+  <section class="w-5/6 m-auto grid grid-cols-1 sm:grid-cols-4 justify-between">
+    <div class="w-9/10 m-auto mb-8 pb-4 sm:mb-0 sm:pb-0 sm:w-60 sm:h-90 bg-[#f4f4f4]">
        <img src="images/tea-1.png" class="relative  top-5 m-auto" alt="">
         <div class="text-center mt-8">
           <h1 class="font-bold text-2xl ">Milk Tea<h1>
           <p class="text-gray-500 mt-4">Creamer could be replaced by fresh milk</p>
          </div>
       </div>
-    <div class="w-60 h-90 bg-[#f4f4f4]">
+    <div class="w-9/10 m-auto mb-8 pb-4 sm:mb-0 sm:pb-0 sm:w-60 sm:h-90 bg-[#f4f4f4]">
        <img src="images/tea-2.png" class="relative  top-5 m-auto" alt="">
         <div class="text-center mt-8">
           <h1 class="font-bold text-2xl ">Blck tea<h1>
           <p class="text-gray-500 mt-4">Creamer could be replaced by fresh milk</p>
          </div>
       </div>
-    <div class="w-60 h-90 bg-[#f4f4f4]"">
+    <div class="w-9/10 m-auto mb-8 pb-4 sm:mb-0 sm:pb-0 sm:w-60 sm:h-90 bg-[#f4f4f4]"">
        <img src="images/tea-3.png" class="relative  top-5 m-auto" alt="">
         <div class="text-center mt-8">
           <h1 class="font-bold text-2xl ">Leamon Tea<h1>
           <p class="text-gray-500 mt-4">Creamer could be replaced by fresh milk</p>
          </div>
       </div>
-    <div class="w-60 h-90 bg-[#f4f4f4]"">
+    <div class="w-9/10 m-auto mb-8 pb-4 sm:mb-0 sm:pb-0 sm:w-60 sm:h-90 bg-[#f4f4f4]"">
        <img src="images/tea-4.png" class="relative  top-5 m-auto" alt="">
         <div class="text-center mt-8">
           <h1 class="font-bold text-2xl ">Grean Tea<h1>
@@ -70,18 +70,19 @@ tea time at The <br>  Tea House</h2>
       </div>
   </section>
   <!-- section-3 -->
-   <section class="w-5/6 h-full m-auto my-10 flex justify-between">
-  <div class="w-5/10 grid grid-cols-2 gap-4">
-      <div class="min-h[40] bg-amber-100 h-30"></div>
-      <div class="min-h[40] bg-[#e6a6231a] h-80">
-        <img src="images/fresh-1.png" class="block m-auto mt-6" alt="">
-      </div>
-      <div class="min-h[40] bg-[#5776391a] h-80 relative top-[-190px]">
-        <img src="images/fresh-2.png"  class="block m-auto mt-6" alt="">
-      </div>
-      <div class="min-h[40] bg-[#5776391a] h-30 mt-2"></div>
+   <section class="w-5/6 h-full m-auto my-10 sm:flex justify-between">
+  <div class="w-9/10 h-110 m-auto sm:w-5/10 grid grid-cols-2 grid-rows-3 gap-4 mr-5">
+   <div class=" bg-[#eddeed] "></div> 
+   <div class="bg-[#e6a6231a] py-2 row-span-2">
+     <img src="images/fresh-1.png" class="block m-auto" alt="">
+   </div> 
+   <div class="bg-[#5776391a] row-span-2 py-1">
+      <img src="images/fresh-2.png" class="block m-auto" alt="">
+   </div> 
+   <div class="bg-[#d9d9d9]"></div> 
+
   </div>
-  <div class="w-5/10 ml-5 text-left items-center">
+  <div class="w-9/10 m-auto sm:m-0 sm:w-5/10 ml-5 text-left items-center">
   <h3 class="text-2xl font-bold">Great Tea, Freshly <br> Presented</h3>
   <p class="my-10 text-[#023801]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
   <h3 class="text-2xl font-bold">Unique Taste</h3>
@@ -91,47 +92,42 @@ tea time at The <br>  Tea House</h2>
   </div>
    </section>
    <!-- section-4 -->
-    <section class="w-5/6 m-auto my-10 h-150 bg-gradient-to-l from-[#ff0000] to-[#ff8938]">
-    <div class="w-9/10 m-auto flex">
-     <div class="w-1/2 h-100 my-35 ">
-        <h1 class="text-4xl text-white font-medium ">Meet Our Super <br> Clients</h1>
-        <p class="text-white my-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-
-        <button class="w-35 h-15 bg-white my-10 items-center">Show All</button>
-     </div>
-     <div class="w-1/2 relative">
-         <div class="h-60 w-100 bg-white absolute top-10 z-1 left-30 relative">
-            <div class="w-full h-full bg-black absolute left-0 opacity-20"></div>
-              <img src="images/client.png" class="w-15 h-15 relative top-[-15px] left-[-10px]" alt="">
-               <div class="pl-5 pb-5">
-                  <p class="my-4 text-[#023801]">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                  <h1 class="text-2xl font-bold">Ilham Yuda</h1>
-                  <h3 class="my-2 text-[#023801]">Businessman</h3>
-                  <img src="images/circles.png" class="w-10 h-10  relative top-[-50px] right-[-300px]" alt="">
-             </div>
+    <section class="w-full sm:w-5/6 m-auto my-10 h-275  sm:h-150 bg-gradient-to-l from-[#ff0000] to-[#ff8938]  sm:flex sm:justify-between flex-row">
+<div class="left p-10  sm:flex sm:items-center w-10/10 sm:w-4/11">
+   <div class=" w-auto h-100  sm:ml-10">
+      <h2 class="text-3xl font-bold text-white">Meet Our Super <br> Clients</h2>
+      <p class="text-[#dbdfdb] my-5 text-2xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+      <button class="w-40 h-10 text-red-500 font-bold bg-white rounded-[5px]">show All</button>
+  </div>
+</div>
+    <div class="right w-9/10 m-auto sm:w-6/11 border-2 b relative  h-150">
+       <div class="cart w-full m-auto sm:w-100 h-auto bg-white rounded-[10px] smp-10 p-5 mt-10   absolute sm:ml-40 opacity-30 ">
+         <div class="sm:absolute top-[-15px] sm:left-[-30px]  p-2 bg-white rounded-full">
+            <img src="images/client.png" alt="">
         </div>
-         <div class="h-60 w-100 bg-white absolute z-3 top-50">
-              <img src="images/client.png" class="w-15 h-15 relative top-[-15px] left-[-10px]" alt="">
-               <div class="pl-5 pb-5">
-                  <p class="my-4 text-[#023801]">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                  <h1 class="text-2xl font-bold">Ilham Yuda</h1>
-                  <h3 class="my-2 text-[#023801]">Businessman</h3>
-                  <img src="images/circles.png" class="w-10 h-10  relative top-[-50px] right-[-300px]" alt="">
-             </div>
+          <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+         <h1 class="font-bold text-1xl ">Ilham Yuda</h1>
+        <h3 class="">Businessman</h3>
+         </div>
+       <div class="cart w-full sm:w-100 h-auto bg-white rounded-[10px] p-10 mt-45    absolute z-5 sm:ml-8">
+         <div class="sm:absolute top-[-15px] left-[-30px]  p-2 bg-white rounded-full">
+            <img src="images/client.png" alt="">
+         </div>
+         <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+         <h1 class="font-bold text-1xl ">Ilham Yuda</h1>
+         <h3 class="">Businessman</h3>
+         <img src="images/circles.png" class="absolute right-10" alt="">
+         </div>
+       <div class="cart w-full sm:w-100 h-auto bg-white rounded-[10px] p-10 mt-80    absolute ml-0 sm:ml-40 opacity-40">
+         <div class="sm:absolute top-[-15px] left-[-30px]  p-2 bg-white rounded-full">
+            <img src="images/client.png" alt="">
         </div>
-         <div class="h-60 w-100 bg-white absolute top-80 z-2 left-30 ">
-             <div class="w-full h-full bg-black absolute left-0 opacity-20"></div>
-              <img src="images/client.png" class="w-15 h-15 relative top-[-15px] left-[-10px]" alt="">
-               <div class="pl-5 pb-5">
-                  <p class="my-4 text-[#023801]">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                  <h1 class="text-2xl font-bold">Ilham Yuda</h1>
-                  <h3 class="my-2 text-[#023801]">Businessman</h3>
-                  <img src="images/circles.png" class="w-10 h-10  relative top-[-50px] right-[-300px]" alt="">
-             </div>
-        </div>
-     </div>
+          <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+         <h1 class="font-bold text-1xl ">Ilham Yuda</h1>
+        <h3 class="">Businessman</h3>
+         </div>
     </div>
-    </section>
+</section>
     <!-- section-5 -->
 
      <section class="w-5/6 m-auto max-h-50 text-center mb-20">
@@ -139,9 +135,9 @@ tea time at The <br>  Tea House</h2>
   <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable.</p>
  </section>
  <!-- section-5 -->
-  <section class="w-5/6 m-auto min-h-50 grid grid-cols-3 justify-between">
-    <div class="h-100 w-80 bg-[#f4f4f4] p-5">
-       <div> <img src="images/news-1.png" class="w-70 h-40 block m-auto" alt=""></div>
+  <section class="w-5/6 m-auto min-h-50 grid sm:grid-cols-3 grid-cols-1  sm:justify-between ">
+    <div class="h-100 w-9/10 m-auto sm:w-80 bg-[#f4f4f4] p-5 mb-5">
+       <div> <img src="images/news-1.png" class="sm:w-70 w-full h-40 block m-auto" alt=""></div>
        <div class="mt-2">
         <h6 class="text-[#023801]">Feb 05, 2027</h6>
         <h2 class="text-2xl font-bold">Collecting 8 points for <br> discount</h2>
@@ -149,8 +145,8 @@ tea time at The <br>  Tea House</h2>
         <h4 class="text-black">Learn more</h4>
        </div>
     </div>
-    <div class="h-100 w-80 bg-[#f4f4f4] p-5">
-       <div> <img src="images/news-2.png" class="w-70 h-40 block m-auto" alt=""></div>
+    <div class="h-100 w-9/10 m-auto sm:w-80 bg-[#f4f4f4] p-5 mb-5">
+       <div> <img src="images/news-2.png" class="sm:w-70 w-full  h-40 block m-auto" alt=""></div>
        <div class="mt-2">
         <h6 class="text-[#023801]">Feb 05, 2027</h6>
         <h2 class="text-2xl font-bold">Collecting 8 points for <br> discount</h2>
@@ -158,8 +154,8 @@ tea time at The <br>  Tea House</h2>
         <h4 class="text-black">Learn more</h4>
        </div>
     </div>
-    <div class="h-100 w-80 bg-[#f4f4f4] p-5">
-       <div> <img src="images/news-3.png" class="w-70 h-40 block m-auto" alt=""></div>
+    <div class="h-100 sm:w-80 w-9/10 m-auto bg-[#f4f4f4] p-5">
+       <div> <img src="images/news-3.png" class="sm:w-70 w-full h-40 block m-auto" alt=""></div>
        <div class="mt-2">
         <h6 class="text-[#023801]">Feb 05, 2027</h6>
         <h2 class="text-2xl font-bold">Collecting 8 points for <br> discount</h2>
@@ -170,7 +166,7 @@ tea time at The <br>  Tea House</h2>
 
   </section>
   <!-- footer-area -->
-   <footer class="w-full min-h-100 bg-[#ff00001a] mt-20 p-30">
+   <footer class="w-full min-h-100 bg-[#ff00001a] mt-10 sm:p-30 p-10">
     <div class="flex justify-between  w-full">
         <img src="images/cup.png" class="w-10 h-15" alt="">
        <div class="flex justify-between items-center">
@@ -179,7 +175,7 @@ tea time at The <br>  Tea House</h2>
        </div>
     </div>
      </div>
-     <div class="grid grid-cols-4 justify-around mt-10">
+     <div class="grid sm:grid-cols-4 grid-cols-2 justify-around mt-10 ">
      <ul class="list-none decoration-0">
         <li class="text-1xl font-bold mb-3">quick link</li>
         <li>home</li>
@@ -216,6 +212,7 @@ tea time at The <br>  Tea House</h2>
 
      </ul>
      </div>
+     <h2 class="text-center">© 2027 UIDesign.to - All rights reserved.</h2>
    </footer>
 </body>
 </html>
