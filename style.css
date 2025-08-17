@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.manrope-font{
+  font-family: "Manrope", sans-serif;
+}
+
+/* <div class="w-50 h-20 flex justify-between items-center bg-gray-200 absolute mt-5
+ <img src="icon-star.png" class="w-10 h-6" alt="">            <div class="">
+                <h2 class="text-2xl font-bold">5.00</h2>
+                <h3>Trust Pilot Ratings</h3>
+            </div>*/
